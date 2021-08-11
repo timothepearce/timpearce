@@ -60,14 +60,14 @@
                 </div>
             </div>
 
-            <div class="flex justify-end text-xs space-x-4 text-gray-400">
-                <a href="mailto:timothe.pearce@gmail.com" class="font-semibold no-underline hover:text-black">timothe.pearce@gmail.com</a>
+            <div class="flex flex-wrap justify-end text-xs space-x-2 text-gray-400 pt-8">
+                <a target="_blank" href="mailto:timothe.pearce@gmail.com" class="font-semibold no-underline hover:text-black">timothe.pearce@gmail.com</a>
                 <span>-</span>
-                <a href="http" class="font-semibold no-underline hover:text-black">GitHub</a>
+                <a target="_blank" href="https://github.com/TimothePearce" class="font-semibold no-underline hover:text-black">GitHub</a>
                 <span>-</span>
-                <a href="http" class="font-semibold no-underline hover:text-black">LinkedIn</a>
+                <a target="_blank" href="https://www.linkedin.com/in/timothepearce" class="font-semibold no-underline hover:text-black">LinkedIn</a>
                 <span>-</span>
-                <a href="http" class="font-semibold no-underline hover:text-black">Twitter</a>
+                <a target="_blank" href="https://twitter.com/TimothePearce" class="font-semibold no-underline hover:text-black">Twitter</a>
             </div>
         </div>
     </div>
