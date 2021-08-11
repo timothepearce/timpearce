@@ -50,13 +50,13 @@
                     <div class="max-w-xl">
                         <h1 class="text-2xl font-extrabold mb-4">Who am I?</h1>
                         <div class="text-lg text-gray-700 font-light space-y-8">
-                            <p>Hi, I’m <a target="_blank" href="https://twitter.com/TimothePearce" class="font-semibold underline text-black">@timothepearce</a>, a software engineer based in Paris.
+                            <p>Hi, I’m <a target="_blank" href="https://twitter.com/TimothePearce" class="font-semibold underline text-black">@timothepearce</a>, a software engineer (full-stack developer) based in Paris.
                             
-                            <p>I spent the last seven years studying computer science gaining a wide variety of skills, from front-end development to DevOps, and focusing on <a target="_blank" href="https://lepetitmartin.com" class="text-black font-semibold underline">how to build solid softwares</a>.</p>
+                            <p>I spent the last seven years studying computer science, gaining a wide variety of skills, from front-end development to DevOps, and <a target="_blank" href="https://lepetitmartin.com" class="text-black font-semibold underline">building reliable software solutions</a>.</p>
 
-                            <p>What do I do now? I am CTO for the French company <a target="_blank" href="https://lepetitmartin.com" class="text-black font-semibold underline">Les petits bots</a> , where I build chatbots and explore the amazing <span class="line-through">but unfinished</span> world of Machine Learning and Natural Language Processing.</p>
+                            <p>What do I do now? I am CTO for the French company <a target="_blank" href="https://lepetitmartin.com" class="text-black font-semibold underline">Les petits bots</a>, where I build chatbots and explore the wonderful <span class="line-through">but unfinished</span> world of Machine Learning, especially Natural Language Processing.</p>
 
-                            <p>If you are interested in learning more about me, you can read my <a href="/about" class="font-semibold underline text-black">full resume</a>, my <a href="/articles" class="font-semibold underline text-black">articles</a> or <a target="_blank" href="mailto:timothe.pearce@gmail.com" class="text-black font-semibold underline">send an email</a>. If you’d like to work with me, I’m also available as a <a target="_blank" href="https://www.malt.fr/dashboard/freelancer" class="text-black font-semibold underline">freelancer</a>.</p>
+                            <p>If you are interested in learning more about me, you can read my <a href="/about" class="font-semibold underline text-black">full resume</a>, <a href="/articles" class="font-semibold underline text-black">articles</a> or <a target="_blank" href="mailto:timothe.pearce@gmail.com" class="text-black font-semibold underline">email me</a>. If you’d like to work with me, I’m also available as a <a target="_blank" href="https://www.malt.fr/dashboard/freelancer" class="text-black font-semibold underline">freelancer</a>.</p>
                         </div>
                     </div>
                 </div>
