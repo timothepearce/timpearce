@@ -9,13 +9,13 @@
                 </div>
 
                 <div>
-                    <a href="/" class="block no-underline text-xl md:text-2xl lg:text-3xl font-extrabold">Timothé Pearce</a>
+                    <NuxtLink to="/" class="block no-underline text-xl md:text-2xl lg:text-3xl font-extrabold">Timothé Pearce</NuxtLink>
 
                     <div class="hidden md:flex mt-6 uppercase tracking-wide text-xs space-x-6 text-gray-400">
-                        <a href="/about" class="font-semibold no-underline hover:text-gray-800">About</a>
-                        <a href="/articles" class="font-semibold no-underline hover:text-gray-800">Articles</a>
-                        <a href="/projects" class="font-semibold no-underline hover:text-gray-800">Projects</a>
-                        <a href="/freelance" class="flex items-center font-semibold no-underline hover:text-gray-800">
+                        <NuxtLink to="/about" class="font-semibold no-underline hover:text-gray-800">About</NuxtLink>
+                        <NuxtLink to="/articles" class="font-semibold no-underline hover:text-gray-800">Articles</NuxtLink>
+                        <NuxtLink to="/projects" class="font-semibold no-underline hover:text-gray-800">Projects</NuxtLink>
+                        <a href="https://www.malt.fr/profile/timothepearce" target="_blank" class="flex items-center font-semibold no-underline hover:text-gray-800">
                             Hire me
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -40,10 +40,10 @@
 
         <div v-if="menuOpen" class="mt-12 ml-6">
             <div class="text-2xl space-y-10">
-                <a href="/about" class="block font-bold no-underline text-gray-800">About</a>
-                <a href="/articles" class="block font-bold no-underline text-gray-800">Articles</a>
-                <a href="/projects" class="block font-bold no-underline text-gray-800">Projects</a>
-                <a href="/freelance" class="flex items-center font-bold no-underline text-gray-800">
+                <NuxtLink to="/about" class="block font-bold no-underline text-gray-800">About</NuxtLink>
+                <NuxtLink to="/articles" class="block font-bold no-underline text-gray-800">Articles</NuxtLink>
+                <NuxtLink to="/projects" class="block font-bold no-underline text-gray-800">Projects</NuxtLink>
+                <a href="https://www.malt.fr/profile/timothepearce" target="_blank" class="flex items-center font-bold no-underline text-gray-800">
                     Hire me
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />

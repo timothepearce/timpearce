@@ -8,11 +8,7 @@
 
             <p>What do I do now? I am CTO for the French company <a target="_blank" href="https://lepetitmartin.com" class="text-gray-800 font-semibold underline">Les petits bots</a>, where I build chatbots and explore the wonderful <span class="line-through">but unfinished</span> world of Machine Learning, especially Natural Language Processing.</p>
 
-            <p>If you are interested in learning more about me, you can read my <a href="/about" class="font-semibold underline text-gray-800">full resume</a>, <a href="/articles" class="font-semibold underline text-gray-800">articles</a> or <a target="_blank" href="mailto:timothe.pearce@gmail.com" class="text-gray-800 font-semibold underline">email me</a>. If you’d like to work with me, I’m also available as a <a target="_blank" href="https://www.malt.fr/dashboard/freelancer" class="text-gray-800 font-semibold underline">freelancer</a>.</p>
+            <p>If you are interested in learning more about me, you can read my <NuxtLink to="/about" class="font-semibold underline text-gray-800">full resume</NuxtLink>, <NuxtLink to="/articles" class="font-semibold underline text-gray-800">articles</NuxtLink> or <a target="_blank" href="mailto:timothe.pearce@gmail.com" class="text-gray-800 font-semibold underline">email me</a>. If you’d like to work with me, I’m also available as a <a target="_blank" href="https://www.malt.fr/dashboard/freelancer" class="text-gray-800 font-semibold underline">freelancer</a>.</p>
         </div>
     </div>
 </template>
-
-<script>
-export default {}
-</script>
