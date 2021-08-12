@@ -52,5 +52,9 @@ export default {
         ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
       ],
     },
+  },
+
+  router: {
+    linkActiveClass: 'text-gray-800',
   }
 }
