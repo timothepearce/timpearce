@@ -19,6 +19,12 @@
 
 <script>
 export default {
+    head: {
+        bodyAttrs: {
+            class: 'bg-gray-50',
+        }
+    },
+
     data() {
         return {
             menuOpen: false,

@@ -7,8 +7,8 @@
                 </div>
 
                 <div class="min-w-0 flex-1">
-                    <p class="text-sm font-medium text-gray-800">
-                        <a href="#" class="hover:underline">{{ name }}</a>
+                    <p class="font-medium text-gray-800">
+                        <a :href="externalLink" target="_blank" class="hover:underline">{{ name }}</a>
                     </p>
 
                     <p class="text-sm text-gray-500">{{ dates }}</p>
@@ -28,6 +28,8 @@
                     </div>
                 </div>
             </div>
+
+            <p class="text-sm text-gray-800 mt-4" v-html="abstract"></p>
         </div>
     </div>
 </template>
@@ -40,12 +42,22 @@ export default {
             required: true,
         },
 
+        externalLink: {
+            type: String,
+            required: true,
+        },
+
         logoUrl: {
             type: String,
             required: true,
         },
 
         dates: {
+            type: String,
+            required: true,
+        },
+
+        abstract: {
             type: String,
             required: true,
         }
