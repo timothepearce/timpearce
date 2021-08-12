@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h1 class="text-2xl font-extrabold mb-6">Who am I?</h1>
-        <div class="text-lg text-gray-700 font-light space-y-8">
-            <p>Hi, I’m <a target="_blank" href="https://twitter.com/TimothePearce" class="font-semibold underline text-gray-800">@TimothePearce</a>, a software engineer (full-stack developer) based in Paris.
+        <h1 class="text-2xl font-extrabold">Who am I?</h1>
+        <div class="text-lg text-gray-700 font-light space-y-8 mt-6">
+            <p>Hi, I’m <a target="_blank" href="https://twitter.com/TimothePearce" class="font-semibold underline text-gray-800">@TimothePearce</a>, a software engineer (full-stack developer) based in Paris.</p>
             
             <p>I spent the last seven years studying computer science, gaining a wide variety of skills, from front-end development to DevOps, and <a target="_blank" href="https://lepetitmartin.com" class="text-gray-800 font-semibold underline">building reliable software solutions</a>.</p>
 
