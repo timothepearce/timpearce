@@ -13,7 +13,7 @@
 
                     <div class="hidden md:flex mt-6 uppercase tracking-wide text-xs space-x-6 text-gray-400">
                         <NuxtLink to="/projects" class="font-semibold no-underline hover:text-gray-800">Projects</NuxtLink>
-                        <NuxtLink to="/articles" class="font-semibold no-underline hover:text-gray-800">Articles</NuxtLink>
+                        <!-- <NuxtLink to="/articles" class="font-semibold no-underline hover:text-gray-800">Articles</NuxtLink> -->
                         <a href="https://www.malt.fr/profile/timothepearce" target="_blank" class="flex items-center font-semibold no-underline hover:text-gray-800">
                             Hire me
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -40,7 +40,7 @@
         <div v-if="menuOpen" class="mt-12 ml-6">
             <div class="text-2xl space-y-10">
                 <NuxtLink to="/projects" @click.native="closeMenu()" class="block font-bold no-underline text-gray-800">Projects</NuxtLink>
-                <NuxtLink to="/articles" @click.native="closeMenu()" class="block font-bold no-underline text-gray-800">Articles</NuxtLink>
+                <!-- <NuxtLink to="/articles" @click.native="closeMenu()" class="block font-bold no-underline text-gray-800">Articles</NuxtLink> -->
                 <a @click="closeMenu()" href="https://www.malt.fr/profile/timothepearce" target="_blank" class="flex items-center font-bold no-underline text-gray-800">
                     Hire me
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

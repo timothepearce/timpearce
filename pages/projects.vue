@@ -9,15 +9,15 @@
             <ProjectCard
                 name="Les petits bots"
                 dates="From June 2018 until now"
-                external-link="http://lepetitmartin.com"
+                external-link="https://lepetitmartin.com"
                 logoUrl="https://avatars.githubusercontent.com/u/39500458?s=200&v=4"
-                abstract="A startup I co-founded. We built a SaaS product that allows customers to create their chatbots, working with a Natural Language Understanding technology."
+                abstract="Les petits bots is a startup I co-founded. We built a SaaS product allowing customers to create chatbots based on a Natural Language Understanding technology."
             ></ProjectCard>
 
             <ProjectCard
                 name="HUSH"
                 dates="From October 2019 to January 2020"
-                external-link="http://hush-news.com"
+                external-link="https://hush-news.com"
                 logoUrl="/img/hush.svg"
                 abstract="HUSH is a news media targetting communication students, composed of a website and a CMS with advanced editing and notifications features."
             ></ProjectCard>
@@ -25,7 +25,7 @@
             <ProjectCard
                 name="Evaneos"
                 dates="From September 2017 to October 2019"
-                external-link="http://evaneos.fr"
+                external-link="https://evaneos.fr"
                 logoUrl="https://avatars.githubusercontent.com/u/344797?s=200&v=4"
                 abstract="Evaneos is a platform connecting local travel agents and users wishing to create a tailor-made trip. I worked there with a large team of 35 developers."
             ></ProjectCard>

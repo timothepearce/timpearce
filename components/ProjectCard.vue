@@ -29,7 +29,11 @@
                 </div>
             </div>
 
-            <p class="text-sm text-gray-800 mt-4" v-html="abstract"></p>
+            <div class="text-sm text-gray-800">
+                <p class="mt-4" v-html="abstract"></p>
+
+                <!-- <p v-if="open" class="mt-4" v-html="content"></p> -->
+            </div>
         </div>
     </div>
 </template>
