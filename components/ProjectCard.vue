@@ -14,7 +14,7 @@
                     <p class="text-sm text-gray-500">{{ dates }}</p>
                 </div>
 
-                <div class="flex-shrink-0 self-center flex">
+                <!-- <div class="flex-shrink-0 self-center flex">
                     <div class="relative z-30 inline-block text-left">
                         <button @click="toggle()" type="button" class="-m-2 p-2 rounded-full flex items-center">
                             <svg v-if="!open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
@@ -26,7 +26,7 @@
                             </svg>
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="text-sm text-gray-800">

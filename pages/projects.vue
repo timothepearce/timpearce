@@ -9,7 +9,7 @@
             <ProjectCard
                 name="Les petits bots"
                 dates="From June 2018 until now"
-                external-link="https://lepetitmartin.com"
+                external-link="https://lespetitsbots.com"
                 logoUrl="https://avatars.githubusercontent.com/u/39500458?s=200&v=4"
                 abstract="Les petits bots is a startup I co-founded. We built a SaaS product allowing customers to create chatbots based on a Natural Language Understanding technology."
             ></ProjectCard>
