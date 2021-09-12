@@ -14,7 +14,7 @@
                     <p class="text-sm text-gray-500">{{ dates }}</p>
                 </div>
 
-                <!-- <div class="flex-shrink-0 self-center flex">
+                <div v-if="hasContent" class="flex-shrink-0 self-center flex">
                     <div class="relative z-30 inline-block text-left">
                         <button @click="toggle()" type="button" class="-m-2 p-2 rounded-full flex items-center">
                             <svg v-if="!open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
@@ -26,13 +26,13 @@
                             </svg>
                         </button>
                     </div>
-                </div> -->
+                </div>
             </div>
 
             <div class="text-sm text-gray-800">
                 <p class="mt-4" v-html="abstract"></p>
 
-                <!-- <p v-if="open" class="mt-4" v-html="content"></p> -->
+                <p v-if="open" class="mt-4" v-html="content"></p>
             </div>
         </div>
     </div>
@@ -64,12 +64,22 @@ export default {
         abstract: {
             type: String,
             required: true,
+        },
+
+        content: {
+            type: String,
         }
     },
 
     data() {
         return {
             open: false,
+        }
+    },
+
+    computed: {
+        hasContent() {
+            return this.content !== undefined;
         }
     },
 

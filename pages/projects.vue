@@ -12,6 +12,7 @@
                 external-link="https://lespetitsbots.com"
                 logoUrl="https://avatars.githubusercontent.com/u/39500458?s=200&v=4"
                 abstract="Les petits bots is a startup I co-founded. We built a SaaS product allowing customers to create chatbots based on a Natural Language Understanding technology."
+                content="<p>bla</p>"
             ></ProjectCard>
 
             <ProjectCard
