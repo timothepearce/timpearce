@@ -12,7 +12,9 @@
                 external-link="https://lespetitsbots.com"
                 logoUrl="https://avatars.githubusercontent.com/u/39500458?s=200&v=4"
                 abstract="Les petits bots is a startup I co-founded. We built a SaaS product allowing customers to create chatbots based on a Natural Language Understanding technology."
-                content="<p>bla</p>"
+                content="<p>Our solution is now deployed through 50+ chatbots and is accessible to nearly 500 000 users.</p>
+                    <p><br>My missions as CTO were to accompany the company through its growth both in the development of the product and in the recruitment and structuring of the company.</p>
+                    <p><br>We built our product on a Laravel, VueJS, TailwindCSS, Docker & AWS services.</p>"
             ></ProjectCard>
 
             <ProjectCard
