@@ -32,7 +32,19 @@
             <div class="text-sm text-gray-800">
                 <p class="mt-4" v-html="abstract"></p>
 
-                <p v-if="open" class="mt-4" v-html="content"></p>
+                <div v-show="open" class="mt-4">
+                    <div v-html="content"></div>
+
+                    <div>
+                        <agile class="mb-4" ref="main" :options="options1" :as-nav-for="asNavFor1">
+                            <div class="slide" v-for="(slide, index) in slides" :key="index" :class="`slide--${index}`"><img :src="slide" /></div>
+                        </agile>
+                        
+                        <agile class="thumbnails" ref="thumbnails" :options="options2" :as-nav-for="asNavFor2">
+                            <div class="slide slide--thumbniail" v-for="(slide, index) in slides" :key="index" :class="`slide--${index}`" @click="$refs.thumbnails.goTo(index)"><img :src="slide" /></div><template slot="prevButton"><i class="fas fa-chevron-left"></i></template><template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
+                        </agile>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -74,8 +86,54 @@ export default {
     data() {
         return {
             open: false,
+            asNavFor1: [],
+			asNavFor2: [],
+			options1: {
+				dots: false,
+				fade: true,
+				navButtons: false
+			},
+			
+			options2: {
+				autoplay: true,
+				centerMode: true,
+				dots: false,
+				navButtons: false,
+				slidesToShow: 3,
+				responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 5
+                    }
+                },
+                
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        navButtons: true
+                    }
+                }
+            ]
+				
+			},
+			
+			slides: [
+					'https://images.unsplash.com/photo-1453831362806-3d5577f014a4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
+					'https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
+					'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
+					'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
+					'https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
+					'https://images.unsplash.com/photo-1472926373053-51b220987527?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
+					'https://images.unsplash.com/photo-1497534547324-0ebb3f052e88?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+				]
         }
     },
+
+    mounted () {
+		this.asNavFor1.push(this.$refs.thumbnails);
+		this.asNavFor2.push(this.$refs.main);
+	},
 
     computed: {
         hasContent() {
